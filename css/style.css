@@ -3664,6 +3664,10 @@ button.close {
   border: 0;
   -webkit-appearance: none; }
 
+/*.modal.in {
+  background: rgb(255,0,0);
+}*/
+
 .modal-open {
   overflow: hidden; }
 

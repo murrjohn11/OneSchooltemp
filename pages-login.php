@@ -36,6 +36,7 @@
                 <div class="card-group mb-0">
                     <div class="card p-2">
                         <div class="card-block">
+                            <form action="welcome.php">
                             <h1>Login</h1>
                             <p class="text-muted">Sign In to your account</p>
                             <div class="input-group mb-1">
@@ -50,14 +51,11 @@
                             </div>
                             <div class="row">
                                 <div class="col-6">
-                                    <form action="welcome.html" method="post">
                                     <button type="submit" class="btn btn-primary px-2">Login</button>
-                                    </form>
-                                </div>
-                                <div class="col-6 text-right">
-                                    <button type="button" class="btn btn-link px-0">Forgot password?</button>
+                                    
                                 </div>
                             </div>
+                            </form>
                         </div>
                     </div>
                     <div class="card card-inverse card-primary py-3 hidden-md-down" style="width:44%">
@@ -77,7 +75,7 @@
     <!-- Bootstrap and necessary plugins -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/tether/dist/js/tether.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+     
 
 
 
